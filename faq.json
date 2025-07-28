@@ -1,42 +1,138 @@
 [
   {
-    "question": "Comment prendre un rendez-vous médical ?",
-    "answer": "Vous pouvez prendre rendez-vous en appelant notre centre au 70 000 000 ou via notre site web rubrique 'Prendre rendez-vous'."
+    "question": "Bonjour",
+    "answer": "Bonjour, comment puis-je vous aider aujourd’hui ?"
   },
   {
-    "question": "Puis-je modifier ou annuler mon rendez-vous ?",
-    "answer": "Oui, vous pouvez modifier ou annuler un rendez-vous en nous appelant au moins 24h à l’avance."
+    "question": "Bonsoir",
+    "answer": "Bonsoir, je suis à votre écoute."
   },
   {
-    "question": "Quels sont les horaires d'ouverture du centre ?",
-    "answer": "Notre centre d’appel est ouvert du lundi au samedi, de 8h à 20h."
+    "question": "Merci",
+    "answer": "Avec plaisir, n’hésitez pas si vous avez d’autres questions."
   },
   {
-    "question": "Est-ce que vous proposez des consultations à distance ?",
-    "answer": "Oui, nous proposons des téléconsultations avec certains spécialistes. Contactez-nous pour plus d’informations."
+    "question": "Au revoir",
+    "answer": "Au revoir, passez une excellente journée."
   },
   {
-    "question": "Quels types de spécialistes sont disponibles ?",
-    "answer": "Nous disposons de médecins généralistes, cardiologues, dermatologues, gynécologues, pédiatres, et bien d’autres."
+    "question": "Comment prendre rendez-vous ?",
+    "answer": "Je peux vous proposer un créneau selon les disponibilités du cabinet."
   },
   {
-    "question": "Comment accéder à mes résultats d’analyses ?",
-    "answer": "Vos résultats sont disponibles via notre portail patient sécurisé ou peuvent être envoyés par email sur demande."
+    "question": "Je veux prendre rendez-vous avec le docteur Martin",
+    "answer": "Très bien, je vérifie les disponibilités du docteur Martin."
   },
   {
-    "question": "Acceptez-vous les assurances ou mutuelles santé ?",
-    "answer": "Oui, nous travaillons avec plusieurs assurances et mutuelles. Merci de nous fournir les informations au moment de la prise de rendez-vous."
+    "question": "Quel est le numéro du cabinet médical ?",
+    "answer": "Je suis désolé, je ne peux pas communiquer ce numéro, mais je peux vous assister directement."
   },
   {
-    "question": "Est-ce que le centre est accessible aux personnes à mobilité réduite ?",
-    "answer": "Oui, nos locaux sont entièrement accessibles aux personnes à mobilité réduite."
+    "question": "Puis-je modifier mon rendez-vous ?",
+    "answer": "Oui, je peux reprogrammer votre rendez-vous selon vos disponibilités."
   },
   {
-    "question": "Quels documents dois-je apporter pour une consultation ?",
-    "answer": "Merci d’apporter votre pièce d’identité, carte d’assurance et tout document médical utile (ordonnances, examens...)."
+    "question": "Puis-je annuler mon rendez-vous ?",
+    "answer": "Oui, je procède immédiatement à l’annulation si vous le souhaitez."
   },
   {
-    "question": "Comment signaler une réclamation ou donner un avis ?",
-    "answer": "Vous pouvez nous envoyer un email à reclamation@centre-sante.tn ou nous appeler directement."
+    "question": "Quels sont vos horaires d’ouverture ?",
+    "answer": "Nous sommes ouverts du lundi au vendredi de 8h à 18h, heure française."
+  },
+  {
+    "question": "Puis-je avoir un rendez-vous en urgence ?",
+    "answer": "Je vais vérifier les disponibilités en urgence selon la situation."
+  },
+  {
+    "question": "Le médecin accepte-t-il la carte vitale ?",
+    "answer": "Oui, les médecins partenaires en France sont conventionnés."
+  },
+  {
+    "question": "Travaillez-vous avec des mutuelles ?",
+    "answer": "Oui, les cabinets partenaires acceptent généralement les mutuelles."
+  },
+  {
+    "question": "Le docteur Dupont est-il disponible aujourd’hui ?",
+    "answer": "Je vérifie tout de suite son agenda."
+  },
+  {
+    "question": "Est-ce que je peux faire une téléconsultation ?",
+    "answer": "Oui, certains médecins proposent des consultations en ligne."
+  },
+  {
+    "question": "Quels documents dois-je apporter ?",
+    "answer": "Veuillez apporter votre carte vitale, pièce d'identité, et tout document médical pertinent."
+  },
+  {
+    "question": "Je suis en retard à mon rendez-vous",
+    "answer": "Souhaitez-vous qu’on informe le cabinet ou qu’on reprogramme ?"
+  },
+  {
+    "question": "Le centre Altra Call est basé où ?",
+    "answer": "Notre centre d’appel est situé à Sousse, en Tunisie."
+  },
+  {
+    "question": "Est-ce un appel payant ?",
+    "answer": "Non, l’appel est gratuit pour vous."
+  },
+  {
+    "question": "Quelles spécialités médicales sont disponibles ?",
+    "answer": "Nous travaillons avec des généralistes, cardiologues, gynécologues, etc."
+  },
+  {
+    "question": "J’ai besoin d’un suivi médical",
+    "answer": "Je peux vous proposer un rendez-vous de suivi adapté à votre besoin."
+  },
+  {
+    "question": "Puis-je avoir un médecin parlant arabe ?",
+    "answer": "Je peux vérifier s’il y a un médecin bilingue disponible."
+  },
+  {
+    "question": "Puis-je consulter pour mon enfant ?",
+    "answer": "Oui, je peux vous proposer un pédiatre partenaire."
+  },
+  {
+    "question": "Comment envoyer mes documents médicaux ?",
+    "answer": "Vous pouvez les transmettre directement au cabinet si nécessaire."
+  },
+  {
+    "question": "Puis-je avoir une attestation de rendez-vous ?",
+    "answer": "Oui, elle peut vous être envoyée par email si le cabinet le permet."
+  },
+  {
+    "question": "Le docteur travaille-t-il le samedi ?",
+    "answer": "Je vais vérifier si le cabinet propose des consultations le samedi."
+  },
+  {
+    "question": "Combien coûte la consultation ?",
+    "answer": "La plupart des médecins sont conventionnés secteur 1. Je peux vous confirmer le tarif exact."
+  },
+  {
+    "question": "J’ai reçu un SMS de rappel",
+    "answer": "Oui, c’est un rappel automatique de votre rendez-vous médical."
+  },
+  {
+    "question": "Le médecin est-il en congé ?",
+    "answer": "Je vais vérifier si le docteur est disponible cette semaine."
+  },
+  {
+    "question": "Pouvez-vous me confirmer mon rendez-vous ?",
+    "answer": "Oui, je vais vous confirmer l’horaire et le lieu de votre rendez-vous."
+  },
+  {
+    "question": "Je n’ai pas reçu de confirmation",
+    "answer": "Je vous renvoie la confirmation immédiatement."
+  },
+  {
+    "question": "J’ai mal compris le message vocal",
+    "answer": "Je vais vous répéter les informations données."
+  },
+  {
+    "question": "Le cabinet est-il accessible aux personnes handicapées ?",
+    "answer": "Oui, la plupart des cabinets partenaires sont accessibles."
+  },
+  {
+    "question": "Est-ce que je peux choisir un homme ou une femme médecin ?",
+    "answer": "Oui, je peux filtrer selon votre préférence si possible."
   }
 ]

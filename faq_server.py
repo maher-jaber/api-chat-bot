@@ -5,6 +5,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
+from datetime import datetime
 
 app = FastAPI()
 # Ajoute le middleware CORS
@@ -22,7 +23,7 @@ with open('faq.json', 'r', encoding='utf-8') as f:
 embeddings = np.load('embeddings.npy')  # Format: np.ndarray [nb_questions, 384]
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-THRESHOLD = 0.45
+THRESHOLD = 0.63
 
 class QuestionRequest(BaseModel):
     message: str
@@ -44,6 +45,10 @@ async def ask(req: QuestionRequest):
             "confidence": round(best_score, 2)
         }
     else:
+          # Log simple dans un fichier texte avec horodatage
+        with open("not_answered.log", "a", encoding="utf-8") as f:
+            f.write(f"{datetime.now().isoformat()} | score={best_score:.3f} | question={req.message}\n")
+
         return {
             "answer": "Je n’ai pas bien compris votre question. Pouvez-vous reformuler ?",
             "confidence": 0
