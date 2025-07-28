@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Comment prendre un rendez-vous médical ?",
+    "answer": "Vous pouvez prendre rendez-vous en appelant notre centre au 70 000 000 ou via notre site web rubrique 'Prendre rendez-vous'."
+  },
+  {
+    "question": "Puis-je modifier ou annuler mon rendez-vous ?",
+    "answer": "Oui, vous pouvez modifier ou annuler un rendez-vous en nous appelant au moins 24h à l’avance."
+  },
+  {
+    "question": "Quels sont les horaires d'ouverture du centre ?",
+    "answer": "Notre centre d’appel est ouvert du lundi au samedi, de 8h à 20h."
+  },
+  {
+    "question": "Est-ce que vous proposez des consultations à distance ?",
+    "answer": "Oui, nous proposons des téléconsultations avec certains spécialistes. Contactez-nous pour plus d’informations."
+  },
+  {
+    "question": "Quels types de spécialistes sont disponibles ?",
+    "answer": "Nous disposons de médecins généralistes, cardiologues, dermatologues, gynécologues, pédiatres, et bien d’autres."
+  },
+  {
+    "question": "Comment accéder à mes résultats d’analyses ?",
+    "answer": "Vos résultats sont disponibles via notre portail patient sécurisé ou peuvent être envoyés par email sur demande."
+  },
+  {
+    "question": "Acceptez-vous les assurances ou mutuelles santé ?",
+    "answer": "Oui, nous travaillons avec plusieurs assurances et mutuelles. Merci de nous fournir les informations au moment de la prise de rendez-vous."
+  },
+  {
+    "question": "Est-ce que le centre est accessible aux personnes à mobilité réduite ?",
+    "answer": "Oui, nos locaux sont entièrement accessibles aux personnes à mobilité réduite."
+  },
+  {
+    "question": "Quels documents dois-je apporter pour une consultation ?",
+    "answer": "Merci d’apporter votre pièce d’identité, carte d’assurance et tout document médical utile (ordonnances, examens...)."
+  },
+  {
+    "question": "Comment signaler une réclamation ou donner un avis ?",
+    "answer": "Vous pouvez nous envoyer un email à reclamation@centre-sante.tn ou nous appeler directement."
+  }
+]
