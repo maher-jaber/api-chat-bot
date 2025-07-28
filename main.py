@@ -21,7 +21,7 @@ with open('faq.json', 'r', encoding='utf-8') as f:
     faq = json.load(f)
 
 embeddings = np.load('embeddings.npy')  # Format: np.ndarray [nb_questions, 384]
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2')
 
 THRESHOLD = 0.63
 

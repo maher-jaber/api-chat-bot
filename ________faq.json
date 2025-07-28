@@ -1,0 +1,206 @@
+[
+  {
+    "question": "Quel est le prix moyen ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'prix'."
+  },
+  {
+    "question": "Puis-je avoir une idée des prix ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'prix'."
+  },
+  {
+    "question": "Dans quelle langue se fait la communication ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'langues'."
+  },
+  {
+    "question": "Est-ce que je peux passer sans rendez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'rdv'."
+  },
+  {
+    "question": "Est-ce que vous acceptez PayPal ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'paiement'."
+  },
+  {
+    "question": "Est-ce rapide ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'delais'."
+  },
+  {
+    "question": "Avez-vous un numéro de téléphone ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'contact'."
+  },
+  {
+    "question": "Puis-je vous appeler ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'contact'."
+  },
+  {
+    "question": "Combien dois-je payer ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'prix'."
+  },
+  {
+    "question": "Est-ce que je peux parler en arabe ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'langues'."
+  },
+  {
+    "question": "Quel est le délai pour avoir un rendez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'rdv'."
+  },
+  {
+    "question": "Quels sont vos domaines d'expertise ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'services'."
+  },
+  {
+    "question": "Puis-je réserver un créneau ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'rdv'."
+  },
+  {
+    "question": "En combien de temps puis-je avoir un retour ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'delais'."
+  },
+  {
+    "question": "Prenez-vous les paiements en espèces ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'paiement'."
+  },
+  {
+    "question": "Comment vous joindre rapidement ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'contact'."
+  },
+  {
+    "question": "Où puis-je envoyer un email ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'contact'."
+  },
+  {
+    "question": "Puis-je payer par carte ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'paiement'."
+  },
+  {
+    "question": "Pouvez-vous m’expliquer vos services ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'services'."
+  },
+  {
+    "question": "Les chèques sont-ils acceptés ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'paiement'."
+  },
+  {
+    "question": "Vos horaires changent-ils pendant les vacances ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'horaires'."
+  },
+  {
+    "question": "Quelles sont vos conditions d’annulation ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'annulation'."
+  },
+  {
+    "question": "Quel est le délai moyen ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'delais'."
+  },
+  {
+    "question": "Comment annuler ma réservation ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'annulation'."
+  },
+  {
+    "question": "Parlez-vous anglais ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'langues'."
+  },
+  {
+    "question": "Quand êtes-vous disponibles ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'horaires'."
+  },
+  {
+    "question": "Pouvez-vous m'aider ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'aide'."
+  },
+  {
+    "question": "Y a-t-il un support client ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'aide'."
+  },
+  {
+    "question": "À quelle heure fermez-vous le soir ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'horaires'."
+  },
+  {
+    "question": "Quels sont vos horaires d'ouverture ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'horaires'."
+  },
+  {
+    "question": "Je ne comprends pas, pouvez-vous m’expliquer ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'aide'."
+  },
+  {
+    "question": "Que faites-vous exactement ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'services'."
+  },
+  {
+    "question": "Combien ça coûte ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'prix'."
+  },
+  {
+    "question": "Quels moyens de paiement acceptez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'paiement'."
+  },
+  {
+    "question": "Quels sont vos tarifs ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'prix'."
+  },
+  {
+    "question": "Puis-je avoir une assistance en français ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'langues'."
+  },
+  {
+    "question": "Dois-je payer si j’annule ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'annulation'."
+  },
+  {
+    "question": "Combien de temps cela prend-il ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'delais'."
+  },
+  {
+    "question": "Comment prendre rendez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'rdv'."
+  },
+  {
+    "question": "Comment puis-je vous contacter ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'contact'."
+  },
+  {
+    "question": "Avez-vous un agenda en ligne ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'rdv'."
+  },
+  {
+    "question": "Quels services proposez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'services'."
+  },
+  {
+    "question": "Pouvez-vous me donner vos heures d'ouverture ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'horaires'."
+  },
+  {
+    "question": "Est-ce que vous avez une grille tarifaire ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'prix'."
+  },
+  {
+    "question": "Quels types de prestations offrez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'services'."
+  },
+  {
+    "question": "À quelle heure ouvrez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'horaires'."
+  },
+  {
+    "question": "Puis-je payer en plusieurs fois ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'paiement'."
+  },
+  {
+    "question": "Puis-je annuler un rendez-vous ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'annulation'."
+  },
+  {
+    "question": "Comment obtenir de l’aide ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'aide'."
+  },
+  {
+    "question": "J’ai besoin d’assistance",
+    "answer": "Voici la réponse générique à la question sur le thème 'aide'."
+  },
+  {
+    "question": "Quand aurai-je une réponse ?",
+    "answer": "Voici la réponse générique à la question sur le thème 'delais'."
+  }
+]
