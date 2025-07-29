@@ -24,7 +24,7 @@ with open('faq.json', 'r', encoding='utf-8') as f:
 embeddings = np.load('embeddings.npy')
 model = SentenceTransformer('all-mpnet-base-v2')
 
-THRESHOLD = 0.63
+THRESHOLD = 0.5
 
 class QuestionRequest(BaseModel):
     message: str
