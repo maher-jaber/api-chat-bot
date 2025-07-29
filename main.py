@@ -52,6 +52,7 @@ async def ask(req: QuestionRequest):
             "answer": "Je n’ai pas bien compris votre question. Pouvez-vous reformuler ?",
             "confidence": 0
         }
+        
 # Pour Railway
 if __name__ == "__main__":
     import uvicorn
