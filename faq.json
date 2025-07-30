@@ -1,138 +1,292 @@
 [
   {
+    "id": 1,
     "question": "Bonjour",
     "answer": "Bonjour, comment puis-je vous aider aujourd’hui ?"
   },
   {
+    "id": 2,
+    "question": "Salut",
+    "answer": "Bonjour, comment puis-je vous aider aujourd’hui ?"
+  },
+  {
+    "id": 3,
     "question": "Bonsoir",
     "answer": "Bonsoir, je suis à votre écoute."
   },
   {
+    "id": 4,
     "question": "Merci",
     "answer": "Avec plaisir, n’hésitez pas si vous avez d’autres questions."
   },
   {
+    "id": 5,
     "question": "Au revoir",
     "answer": "Au revoir, passez une excellente journée."
   },
   {
+    "id": 6,
     "question": "Comment prendre rendez-vous ?",
     "answer": "Je peux vous proposer un créneau selon les disponibilités du cabinet."
   },
   {
+    "id": 7,
+    "question": "Puis-je prendre un rendez-vous ?",
+    "answer": "Je peux vous proposer un créneau selon les disponibilités du cabinet."
+  },
+  {
+    "id": 8,
+    "question": "Comment réserver une consultation ?",
+    "answer": "Je peux vous proposer un créneau selon les disponibilités du cabinet."
+  },
+  {
+    "id": 9,
+    "question": "Puis-je fixer un rendez-vous en ligne ?",
+    "answer": "Je peux vous proposer un créneau selon les disponibilités du cabinet."
+  },
+  {
+    "id": 10,
+    "question": "Quel est le délai pour obtenir un rendez-vous ?",
+    "answer": "Les délais varient selon les disponibilités, je peux vérifier pour vous."
+  },
+  {
+    "id": 11,
     "question": "Je veux prendre rendez-vous avec le docteur Martin",
     "answer": "Très bien, je vérifie les disponibilités du docteur Martin."
   },
   {
-    "question": "Quel est le numéro du cabinet médical ?",
-    "answer": "Je suis désolé, je ne peux pas communiquer ce numéro, mais je peux vous assister directement."
-  },
-  {
-    "question": "Puis-je modifier mon rendez-vous ?",
-    "answer": "Oui, je peux reprogrammer votre rendez-vous selon vos disponibilités."
-  },
-  {
-    "question": "Puis-je annuler mon rendez-vous ?",
-    "answer": "Oui, je procède immédiatement à l’annulation si vous le souhaitez."
-  },
-  {
-    "question": "Quels sont vos horaires d’ouverture ?",
-    "answer": "Nous sommes ouverts du lundi au vendredi de 8h à 18h, heure française."
-  },
-  {
-    "question": "Puis-je avoir un rendez-vous en urgence ?",
-    "answer": "Je vais vérifier les disponibilités en urgence selon la situation."
-  },
-  {
-    "question": "Le médecin accepte-t-il la carte vitale ?",
-    "answer": "Oui, les médecins partenaires en France sont conventionnés."
-  },
-  {
-    "question": "Travaillez-vous avec des mutuelles ?",
-    "answer": "Oui, les cabinets partenaires acceptent généralement les mutuelles."
-  },
-  {
+    "id": 12,
     "question": "Le docteur Dupont est-il disponible aujourd’hui ?",
     "answer": "Je vérifie tout de suite son agenda."
   },
   {
-    "question": "Est-ce que je peux faire une téléconsultation ?",
-    "answer": "Oui, certains médecins proposent des consultations en ligne."
+    "id": 13,
+    "question": "Puis-je modifier mon rendez-vous ?",
+    "answer": "Oui, je peux reprogrammer votre rendez-vous selon vos disponibilités."
   },
   {
-    "question": "Quels documents dois-je apporter ?",
-    "answer": "Veuillez apporter votre carte vitale, pièce d'identité, et tout document médical pertinent."
+    "id": 14,
+    "question": "Puis-je annuler mon rendez-vous ?",
+    "answer": "Oui, je procède immédiatement à l’annulation si vous le souhaitez."
   },
   {
-    "question": "Je suis en retard à mon rendez-vous",
-    "answer": "Souhaitez-vous qu’on informe le cabinet ou qu’on reprogramme ?"
+    "id": 15,
+    "question": "Est-ce possible de reporter mon rendez-vous ?",
+    "answer": "Oui, je peux vous aider à changer la date de votre rendez-vous."
   },
   {
-    "question": "Le centre Altra Call est basé où ?",
-    "answer": "Notre centre d’appel est situé à Sousse, en Tunisie."
+    "id": 16,
+    "question": "Comment confirmer mon rendez-vous ?",
+    "answer": "Oui, je vais vous confirmer l’horaire et le lieu de votre rendez-vous."
   },
   {
-    "question": "Est-ce un appel payant ?",
-    "answer": "Non, l’appel est gratuit pour vous."
-  },
-  {
-    "question": "Quelles spécialités médicales sont disponibles ?",
-    "answer": "Nous travaillons avec des généralistes, cardiologues, gynécologues, etc."
-  },
-  {
-    "question": "J’ai besoin d’un suivi médical",
-    "answer": "Je peux vous proposer un rendez-vous de suivi adapté à votre besoin."
-  },
-  {
-    "question": "Puis-je avoir un médecin parlant arabe ?",
-    "answer": "Je peux vérifier s’il y a un médecin bilingue disponible."
-  },
-  {
-    "question": "Puis-je consulter pour mon enfant ?",
-    "answer": "Oui, je peux vous proposer un pédiatre partenaire."
-  },
-  {
-    "question": "Comment envoyer mes documents médicaux ?",
-    "answer": "Vous pouvez les transmettre directement au cabinet si nécessaire."
-  },
-  {
-    "question": "Puis-je avoir une attestation de rendez-vous ?",
-    "answer": "Oui, elle peut vous être envoyée par email si le cabinet le permet."
-  },
-  {
-    "question": "Le docteur travaille-t-il le samedi ?",
-    "answer": "Je vais vérifier si le cabinet propose des consultations le samedi."
-  },
-  {
-    "question": "Combien coûte la consultation ?",
-    "answer": "La plupart des médecins sont conventionnés secteur 1. Je peux vous confirmer le tarif exact."
-  },
-  {
+    "id": 17,
     "question": "J’ai reçu un SMS de rappel",
     "answer": "Oui, c’est un rappel automatique de votre rendez-vous médical."
   },
   {
-    "question": "Le médecin est-il en congé ?",
-    "answer": "Je vais vérifier si le docteur est disponible cette semaine."
-  },
-  {
-    "question": "Pouvez-vous me confirmer mon rendez-vous ?",
-    "answer": "Oui, je vais vous confirmer l’horaire et le lieu de votre rendez-vous."
-  },
-  {
+    "id": 18,
     "question": "Je n’ai pas reçu de confirmation",
     "answer": "Je vous renvoie la confirmation immédiatement."
   },
   {
-    "question": "J’ai mal compris le message vocal",
-    "answer": "Je vais vous répéter les informations données."
+    "id": 19,
+    "question": "Puis-je avoir un rendez-vous en urgence ?",
+    "answer": "Je vais vérifier les disponibilités en urgence selon la situation."
   },
   {
+    "id": 20,
+    "question": "Quels sont vos horaires d’ouverture ?",
+    "answer": "Nous sommes ouverts du lundi au vendredi de 8h à 18h, heure française."
+  },
+  {
+    "id": 21,
+    "question": "Le cabinet est-il ouvert le samedi ?",
+    "answer": "Je vais vérifier si le cabinet propose des consultations le samedi."
+  },
+  {
+    "id": 22,
+    "question": "Le docteur travaille-t-il le samedi ?",
+    "answer": "Je vais vérifier si le cabinet propose des consultations le samedi."
+  },
+  {
+    "id": 23,
+    "question": "Quel est le numéro du cabinet médical ?",
+    "answer": "Je suis désolé, je ne peux pas communiquer ce numéro, mais je peux vous assister directement."
+  },
+  {
+    "id": 24,
+    "question": "Le centre Altra Call est basé où ?",
+    "answer": "Notre centre d’appel est situé à Sousse, en Tunisie."
+  },
+  {
+    "id": 25,
+    "question": "Est-ce un appel payant ?",
+    "answer": "Non, l’appel est gratuit pour vous."
+  },
+  {
+    "id": 26,
+    "question": "Puis-je contacter le cabinet par téléphone ?",
+    "answer": "Je ne peux pas fournir le numéro, mais je peux vous aider ici."
+  },
+  {
+    "id": 27,
+    "question": "Travaillez-vous avec des mutuelles ?",
+    "answer": "Oui, les cabinets partenaires acceptent généralement les mutuelles."
+  },
+  {
+    "id": 28,
+    "question": "Le médecin accepte-t-il la carte vitale ?",
+    "answer": "Oui, les médecins partenaires en France sont conventionnés."
+  },
+  {
+    "id": 29,
+    "question": "Quels documents dois-je apporter ?",
+    "answer": "Veuillez apporter votre carte vitale, pièce d'identité, et tout document médical pertinent."
+  },
+  {
+    "id": 30,
+    "question": "Puis-je envoyer mes documents médicaux ?",
+    "answer": "Vous pouvez les transmettre directement au cabinet si nécessaire."
+  },
+  {
+    "id": 31,
+    "question": "Puis-je avoir une attestation de rendez-vous ?",
+    "answer": "Oui, elle peut vous être envoyée par email si le cabinet le permet."
+  },
+  {
+    "id": 32,
     "question": "Le cabinet est-il accessible aux personnes handicapées ?",
     "answer": "Oui, la plupart des cabinets partenaires sont accessibles."
   },
   {
+    "id": 33,
     "question": "Est-ce que je peux choisir un homme ou une femme médecin ?",
     "answer": "Oui, je peux filtrer selon votre préférence si possible."
+  },
+  {
+    "id": 34,
+    "question": "Puis-je avoir un médecin parlant arabe ?",
+    "answer": "Je peux vérifier s’il y a un médecin bilingue disponible."
+  },
+  {
+    "id": 35,
+    "question": "Puis-je consulter pour mon enfant ?",
+    "answer": "Oui, je peux vous proposer un pédiatre partenaire."
+  },
+  {
+    "id": 36,
+    "question": "Quelles spécialités médicales sont disponibles ?",
+    "answer": "Nous travaillons avec des généralistes, cardiologues, gynécologues, etc."
+  },
+  {
+    "id": 37,
+    "question": "J’ai besoin d’un suivi médical",
+    "answer": "Je peux vous proposer un rendez-vous de suivi adapté à votre besoin."
+  },
+  {
+    "id": 38,
+    "question": "Comment envoyer mes documents médicaux ?",
+    "answer": "Vous pouvez les transmettre directement au cabinet si nécessaire."
+  },
+  {
+    "id": 39,
+    "question": "Je suis en retard à mon rendez-vous",
+    "answer": "Souhaitez-vous qu’on informe le cabinet ou qu’on reprogramme ?"
+  },
+  {
+    "id": 40,
+    "question": "Je veux parler à un humain",
+    "answer": "Je vous mets en relation avec un agent dès que possible."
+  },
+  {
+    "id": 41,
+    "question": "Je ne comprends pas votre message",
+    "answer": "Je vais vous répéter les informations données."
+  },
+  {
+    "id": 42,
+    "question": "Pouvez-vous répéter ?",
+    "answer": "Bien sûr, je répète les informations."
+  },
+  {
+    "id": 43,
+    "question": "Mon rendez-vous a été annulé, que faire ?",
+    "answer": "Je peux vous aider à reprogrammer ou vous informer."
+  },
+  {
+    "id": 44,
+    "question": "Le système ne marche pas",
+    "answer": "Je suis désolé, pouvez-vous préciser le problème ?"
+  },
+  {
+    "id": 45,
+    "question": "Le docteur est-il en congé ?",
+    "answer": "Je vais vérifier si le docteur est disponible cette semaine."
+  },
+  {
+    "id": 46,
+    "question": "Comment contacter le service client ?",
+    "answer": "Je vous mets en relation avec un agent."
+  },
+  {
+    "id": 47,
+    "question": "Est-ce que je peux faire une téléconsultation ?",
+    "answer": "Oui, certains médecins proposent des consultations en ligne."
+  },
+  {
+    "id": 48,
+    "question": "Quel est le coût de la consultation ?",
+    "answer": "La plupart des médecins sont conventionnés secteur 1. Je peux vous confirmer le tarif exact."
+  },
+  {
+    "id": 49,
+    "question": "Le cabinet est-il équipé pour les urgences ?",
+    "answer": "Je peux vérifier si des créneaux d'urgence sont disponibles."
+  },
+  {
+    "id": 50,
+    "question": "Comment préparer ma consultation ?",
+    "answer": "Apportez vos documents médicaux et votre carte vitale."
+  },
+  {
+    "id": 51,
+    "question": "Puis-je avoir un rendez-vous rapide ?",
+    "answer": "Je vais vérifier les disponibilités les plus proches."
+  },
+  {
+    "id": 52,
+    "question": "Comment annuler ou modifier mon rendez-vous ?",
+    "answer": "Je peux gérer cela pour vous."
+  },
+  {
+    "id": 53,
+    "question": "Pouvez-vous confirmer mon rendez-vous ?",
+    "answer": "Oui, je confirme l’horaire et le lieu."
+  },
+  {
+    "id": 54,
+    "question": "D'accord",
+    "answer": "Ok"
+  },
+  {
+    "id": 55,
+    "question": "test",
+    "answer": "haha"
+  },
+  {
+    "id": 56,
+    "question": "test",
+    "answer": "rep"
+  },
+  {
+    "id": 57,
+    "question": "cadeau",
+    "answer": "loooool"
+  },
+  {
+    "id": 58,
+    "question": "casting",
+    "answer": "zohra"
   }
 ]

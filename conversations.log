@@ -1,0 +1,9 @@
+2025-07-30 15:28:32,658 | session=abc123 | score=0.19 | question=bla bla bla
+2025-07-30 15:34:43,965 | session=818f6fbc-e8e5-4bff-b1a5-1fd1d90af4da | score=0.17 | question=casting
+2025-07-30 15:36:38,868 | session=818f6fbc-e8e5-4bff-b1a5-1fd1d90af4da | score=0.17 | question=casting
+2025-07-30 15:36:55,916 | session=818f6fbc-e8e5-4bff-b1a5-1fd1d90af4da | score=0.17 | question=casting
+2025-07-30 15:44:25,959 | session=818f6fbc-e8e5-4bff-b1a5-1fd1d90af4da | score=0.17 | question=casting
+2025-07-30 15:44:57,962 | session=abc123 | score=0.19 | question=bla bla bla
+2025-07-30 15:51:04,002 | session=abc123 | score=0.24 | question=kkkkkkk
+2025-07-30 15:51:33,789 | session=818f6fbc-e8e5-4bff-b1a5-1fd1d90af4da | score=0.17 | question=casting
+2025-07-30 16:12:01,944 | session=abc123 | score=0.24 | question=kkkkkkk
