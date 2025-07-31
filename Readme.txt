@@ -26,3 +26,21 @@ Accès API :
 👉 http://127.0.0.1:8000/docs
 
 python3 answer.py "je veux voir un médecin"
+
+# Installation
+pip install -r requirements.txt
+
+# Initialisation de la base SQLite
+python init_db.py
+
+# Génération des embeddings
+python encode_faq.py
+
+# Lancement de l'API
+uvicorn main:app --reload
+
+# Accès à l'interface Swagger
+http://localhost:8000/docs
+
+# Nettoyage des anciennes sessions (à mettre dans un cron)
+python -c "from session_store import SessionDBStore; SessionDBStore().cleanup_old_sessions()"
