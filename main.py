@@ -10,6 +10,9 @@ from session_store import SessionMemoryStore
 from typing import List, Optional
 import re
 import logging
+from scenario_manager import ScenarioManager
+
+
 
 app = FastAPI()
 
@@ -91,35 +94,69 @@ def get_questions():
             results.append(parsed)
     return results
 
+
+
+
+scenario_manager = ScenarioManager()
+
 @app.post("/ask", response_model=AnswerResponse)
 async def ask(req: QuestionRequest):
-    # Encodage et recherche
+    # Vérifier d'abord si l'utilisateur est dans un scénario actif
+    if req.session_id in scenario_manager.active_scenarios:
+        scenario_response = scenario_manager.handle_scenario_step(req.session_id, req.message)
+        if scenario_response:
+            memory_store.add_message(req.session_id, req.message, scenario_response)
+            return AnswerResponse(
+                answer=scenario_response,
+                confidence=1.0,  # Confiance élevée pour les réponses de scénario
+                history=memory_store.get_history(req.session_id),
+                suggested_questions=["Quitter le scénario"]  # Suggestion pour sortir du scénario
+            )
+
+    # Traitement normal des FAQ
     user_embedding = model.encode([req.message], convert_to_numpy=True)
     top_answers = get_top_k_answers(user_embedding, embeddings, faq, k=TOP_K)
-    
-    # Génération de réponse améliorée
+    best_match = top_answers[0]
+
+    # Vérifier si la meilleure correspondance est un lanceur de scénario
+    if best_match["score"] >= THRESHOLD and "scenario" in best_match and best_match["scenario"]:
+        # Démarrer le scénario
+        scenario_manager.start_scenario(req.session_id, best_match["scenario"])
+        initial_response = best_match["answer"]
+        if best_match["scenario"]["steps"]:
+            initial_response += f"\n\n{best_match['scenario']['steps'][0]['question']}"
+        
+        memory_store.add_message(req.session_id, req.message, initial_response)
+        return AnswerResponse(
+            answer=initial_response,
+            confidence=round(best_match["score"], 2),
+            history=memory_store.get_history(req.session_id),
+            suggested_questions=["Quitter le scénario"]
+        )
+
+    # Génération de réponse standard pour les FAQ simples
     answer, suggested_questions = generate_response(top_answers, req.message)
     
-    # Journalisation
-    if top_answers[0]["score"] < THRESHOLD:
+    # Journalisation des questions non comprises
+    if best_match["score"] < THRESHOLD:
         logging.info("", extra={
             "session_id": req.session_id,
-            "score": top_answers[0]["score"],
+            "score": best_match["score"],
             "question": req.message
         })
         with open("not_answered.log", "a", encoding="utf-8") as f:
-            f.write(f"{datetime.now().isoformat()} | score={top_answers[0]['score']:.3f} | question={req.message}\n")
+            f.write(f"{datetime.now().isoformat()} | score={best_match['score']:.3f} | question={req.message}\n")
 
-    # Mise à jour session
+    # Mise à jour de l'historique de session
     memory_store.add_message(req.session_id, req.message, answer)
 
     return AnswerResponse(
         answer=answer,
-        confidence=round(top_answers[0]["score"], 2),
+        confidence=round(best_match["score"], 2),
         history=memory_store.get_history(req.session_id),
         suggested_questions=suggested_questions
     )
-
+    
 @app.post("/reload")
 def reload_data():
     global faq, embeddings
