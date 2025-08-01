@@ -14,7 +14,7 @@ with open('faq.json', 'r', encoding='utf-8') as f:
     faq = json.load(f)
 
 embeddings = np.load('embeddings.npy')
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2')
 
 # Question reçue en argument CLI
 user_question = sys.argv[1]

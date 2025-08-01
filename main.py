@@ -33,7 +33,7 @@ embeddings = np.load('embeddings.npy')
 model = SentenceTransformer('all-mpnet-base-v2')
 memory_store = SessionMemoryStore()
 
-THRESHOLD = 0.45  # Seuil légèrement abaissé pour plus de couverture
+THRESHOLD = 0.5  # Seuil légèrement abaissé pour plus de couverture
 TOP_K = 5  # Plus de résultats pour meilleure sélection
 
 # Logging structuré
