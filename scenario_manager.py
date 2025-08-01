@@ -1,4 +1,5 @@
 from typing import Dict, Optional
+import re
 
 class ScenarioManager:
     def __init__(self):
@@ -23,16 +24,17 @@ class ScenarioManager:
         if any(exit_phrase in user_input.lower() 
                for exit_phrase in scenario['exit_phrases']):
             del self.active_scenarios[session_id]
-            return "Scenario annulé. Comment puis-je vous aider ?"
+            return "Scénario annulé. Comment puis-je vous aider ?"
+        
+        # Handle both dict and list formats for answers
+        answers = current_step['answers']
+        if isinstance(answers, dict):  # Backward compatibility
+            answers = [answers]
         
         # Find matching response
-        for answer in current_step['answers']:
+        for answer in answers:
             if re.search(answer['pattern'], user_input, re.IGNORECASE):
                 response = answer['response']
-                
-                # Store data if needed
-                if 'store' in answer:
-                    scenario_state['data'][answer['store']] = user_input
                 
                 # Move to next step or complete
                 if scenario_state['current_step'] + 1 < len(scenario['steps']):
@@ -40,8 +42,7 @@ class ScenarioManager:
                     next_step = scenario['steps'][scenario_state['current_step']]
                     return f"{response}\n\n{next_step['question']}"
                 else:
-                    # Scenario complete - compile final response
                     del self.active_scenarios[session_id]
-                    return self._compile_final_response(response, scenario_state['data'])
+                    return response
         
         return "Je n'ai pas compris. " + current_step['question']

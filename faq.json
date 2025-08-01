@@ -15,10 +15,16 @@
       "steps": [
         {
           "question": "Avec quel médecin souhaitez-vous consulter ?",
-          "answers": {
-            "pattern": ".*Martin.*",
-            "response": "Je vérifie les disponibilités du Dr Martin."
-          }
+          "answers": [
+            {
+              "pattern": ".*Martin.*",
+              "response": "Je vérifie les disponibilités du Dr Martin."
+            },
+            {
+              "pattern": ".*",
+              "response": "Je cherche les disponibilités pour ce médecin."
+            }
+          ]
         },
         {
           "question": "Quelle date vous conviendrait ?",
