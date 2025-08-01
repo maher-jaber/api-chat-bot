@@ -62,8 +62,11 @@ LOG_FILE = "not_answered.log"
 FAQ_PATH = "faq.json"
 
 class FAQItem(BaseModel):
+    id: Optional[int] = None
+    type: str  # "simple" ou "scenario"
     question: str
     answer: str
+    scenario: Optional[dict] = None
 
 pattern = re.compile(
     r"^(?P<timestamp>[\d\-T:\.]+) \| score=(?P<score>[\d\.]+) \| question=(?P<question>.+)$"
@@ -162,10 +165,21 @@ def reload_data():
     global faq, embeddings
     with open('faq.json', 'r', encoding='utf-8') as f:
         faq = json.load(f)
-    questions = [item["question"] for item in faq]
-    embeddings = model.encode(questions)
+    
+    # Regénérer les embeddings comme dans encode_faq.py
+    all_questions = []
+    for item in faq:
+        all_questions.append(item['question'])
+        if item['type'] == 'scenario' and item['scenario']:
+            for step in item['scenario']['steps']:
+                for answer in step['answers']:
+                    clean_pattern = answer['pattern'].replace('.*', '').strip()
+                    if clean_pattern and clean_pattern != '.':
+                        all_questions.append(clean_pattern)
+    
+    embeddings = model.encode(all_questions, convert_to_numpy=True)
     np.save('embeddings.npy', embeddings)
-    return {"status": "FAQ rechargée"}
+    return {"status": "FAQ rechargée avec succès"}
 
 
 
@@ -179,7 +193,14 @@ def add_faq(item: FAQItem):
     with open(FAQ_PATH, 'r+', encoding='utf-8') as f:
         data = json.load(f)
         new_id = max([e.get("id", 0) for e in data], default=0) + 1
-        data.append({"id": new_id, "question": item.question, "answer": item.answer})
+        new_item = {
+            "id": new_id,
+            "type": item.type,
+            "question": item.question,
+            "answer": item.answer,
+            "scenario": item.scenario
+        }
+        data.append(new_item)
         f.seek(0)
         json.dump(data, f, indent=2, ensure_ascii=False)
         f.truncate()
@@ -191,8 +212,12 @@ def update_faq(faq_id: int, item: FAQItem):
         data = json.load(f)
         for faq in data:
             if faq.get("id") == faq_id:
-                faq["question"] = item.question
-                faq["answer"] = item.answer
+                faq.update({
+                    "type": item.type,
+                    "question": item.question,
+                    "answer": item.answer,
+                    "scenario": item.scenario
+                })
                 break
         else:
             raise HTTPException(status_code=404, detail="FAQ non trouvée")
