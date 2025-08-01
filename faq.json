@@ -470,7 +470,42 @@
           ]
         }
       ],
-      "exit_phrases": ["annuler", "stop", "quitter"]
+      "exit_phrases": [
+        "annuler",
+        "stop",
+        "quitter"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "type": "simple",
+    "question": "aaaaa",
+    "answer": "aaa",
+    "scenario": null
+  },
+  {
+    "id": 63,
+    "type": "scenario",
+    "question": "aaaaa",
+    "answer": "Réponse dynamique du scénario",
+    "scenario": {
+      "steps": [
+        {
+          "question": "aaaa",
+          "answers": [
+            {
+              "pattern": ".*zzzzz.*",
+              "response": "zzzz"
+            }
+          ]
+        }
+      ],
+      "exit_phrases": [
+        "annuler",
+        "stop",
+        "quitter"
+      ]
     }
   }
 ]
